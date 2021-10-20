@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "theme_base for web projects built with SASS",
   "main": "gulpfile.js",
-  "scripts": {
-    "test": "gulp test"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bwons/theme_base.git"
@@ -16,8 +13,23 @@
     "url": "https://github.com/bwons/theme_base/issues"
   },
   "homepage": "https://github.com/bwons/theme_base#readme",
+  "scripts": {
+    "postinstall": "find node_modules/ -name '*.info' -type f -delete"
+  },
   "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "cssnano": "^4.1.11",
     "gulp": "^4.0.2",
-    "gulp-sass": "^5.0.0"
-  }
+    "gulp-css-url-versioner": "^1.1.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.43.2"
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "maintained node versions"
+  ]
 }
