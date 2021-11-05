@@ -1,0 +1,42 @@
+//Global variables
+
+//COLORS
+//Brand (should not be many colors. e.g.: primary, secondary, tertiary)
+//@TODO: Mixin for color variation/accents of brand colors
+$c-blue: #4471C7;
+$c-turquoise: #7DB8C3;
+$c-green: #90D98D;
+$c-yellow: #F8E387;
+
+//Font
+$c-white: #FCFCFC;
+$c-black: #404040;
+
+//Accent
+$c-gray-dark: #AAAAAA;
+$c-gray-medium: #CCCCCC;
+$c-gray-light: #EEEEEE;
+
+//State
+$c-success: #7FDB64;
+$c-warning: #F0BC47;
+$c-error: #D05366;
+
+//FONTS
+//Fontfamilies
+$ff-primary: 'Exo', 'sans-serif';
+$ff-secondary: 'Roboto', 'sans-serif';
+
+//Fontsizes
+$fs-base: 16px;
+$fs-paragraph: 1rem;
+$fs-h1: 2rem;
+$fs-h2: 1.75rem;
+$fs-h3: 1.5rem;
+$fs-h4: 1.25rem;
+$fs-small: .75rem;
+
+//Breakpoints
+$bp-small: 320px;
+$bp-medium: 768px;
+$bp-large: 1024px;

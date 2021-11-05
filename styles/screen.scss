@@ -1,5 +1,6 @@
 //BASE//
 //variables
+@import './base/variables';
 
 //functions
 
@@ -8,7 +9,8 @@
 //extendibles
 
 //styles
-@import "./base/reset";
+@import './base/reset';
+@import './base/typography';
 
 //LAYOUT//
 

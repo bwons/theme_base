@@ -1,0 +1,42 @@
+//Typography styles
+
+//Heading base style
+%heading {
+  color: $c-blue;
+  font-family: $ff-primary;
+}
+
+:root {
+  font-size: $fs-base;
+}
+
+html, body {
+  font-family: $ff-secondary;
+  font-size: $fs-paragraph;
+  color: $c-black;
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  @extend %heading;
+  font-size: $fs-h1;
+}
+
+h2 {
+  @extend %heading;
+  font-size: $fs-h2;
+}
+
+h3 {
+  @extend %heading;
+  font-size: $fs-h3;
+}
+
+h4 {
+  @extend %heading;
+  font-size: $fs-h4;
+}
+
+strong, b {
+  font-weight: bold;
+}
