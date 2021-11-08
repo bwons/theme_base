@@ -3,7 +3,7 @@ Base theme for web projects with SASS.
 Created with best practices from SMACSS and BEM for a theme as modular as possible.
 Please read about the "frameworks" above to get a basic understanding of used folderstructure and best practices.
 
-For usage you will need Node 8.11.1 (NPM 5.6.0)
+You will need Node 8.11.1 (NPM 5.6.0).
 If you are using NVM run following commands
 `nvm install 8.11.1` and `nvm use 8.11.1`.
 
