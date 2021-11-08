@@ -16,3 +16,8 @@ Note: You have to manually refresh the browser to see the changes you've made.
 For production run `gulp production`
 Production generates minified css and minifies all images.
 Use this before deployment.
+
+
+
+//
+You can take a look at the running project on github pages here: https://bwons.github.io/theme_base/
